@@ -1,0 +1,12 @@
+{
+  "NOTION_TOKEN": "yourToken",
+  "TAGS_DATABASE_URL": "yourUrl",
+  "TASKS_DATABASE_URL": "yourUrl",
+  "WINS_DATABASE_URL": "yourUrl",
+  "LOSE_DATABASE_URL": "yourUrl",
+  "NOTES_DATABASE_URL": "yourUrl",
+  "YEAR_PAGE_URL": "yourUrl",
+  "INBOX_SECTION_URL": "yourUrl",
+  "IFTTT_TIMEBLOCKING_APPLET_URL": "https://maker.ifttt.com/trigger/your-event/with/key/your-key",
+  "WEEK_STARTS_ON_SUNDAY": true
+}
