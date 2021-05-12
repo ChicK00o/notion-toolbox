@@ -28,6 +28,14 @@ class NotionApi():
     @cached(cache={})
     def wins_database(self):
         return self.client().get_collection_view(self.config.wins_database_url())
+    
+    @cached(cache={})
+    def lose_database(self):
+        return self.client().get_collection_view(self.config.lose_database_url())
+
+    @cached(cache={})
+    def notes_database(self):
+        return self.client().get_collection_view(self.config.notes_database_url())
 
     def get_block(self, id):
         return self.client().get_block(id)
@@ -38,6 +46,10 @@ class NotionApi():
     @cached(cache={})
     def current_year(self):
         return self.client().get_block(self.config.year_page_url())
+
+    @cached(cache={})
+    def inbox_section(self):
+        return self.client().get_block(self.config.inbox_section_url())
 
     @cached(cache={})
     def current_week(self):
@@ -63,7 +75,7 @@ class NotionApi():
         current_date = datetime.now()
 
         day_name = current_date.strftime(self.config.custom_day_format())
-        days_page = self.current_week().children[1].children[1]
+        days_page = self.current_week().children[3].children[1]
 
         for day_page in days_page.children:
             if day_page.title.startswith(day_name):
@@ -114,6 +126,12 @@ class NotionApi():
         # Add note to end of the page, then move it to before the divider
         note_block = self.current_day().children.add_new(TextBlock, title=content)
         note_block.move_to(divider_block, "before")
+
+        return note_block
+
+    def append_to_inbox(self, content):
+        # Add note to end of the page, then move it to before the divider
+        note_block = self.inbox_section().children.add_new(TextBlock, title=content)
 
         return note_block
 

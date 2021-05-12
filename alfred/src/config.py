@@ -39,10 +39,22 @@ class Config():
     @cached(cache={})
     def wins_database_url(self):
         return self.config_json()['WINS_DATABASE_URL']
+    
+    @cached(cache={})
+    def lose_database_url(self):
+        return self.config_json()['LOSE_DATABASE_URL']
+
+    @cached(cache={})
+    def notes_database_url(self):
+        return self.config_json()['NOTES_DATABASE_URL']
 
     @cached(cache={})
     def year_page_url(self):
         return self.config_json()['YEAR_PAGE_URL']
+
+    @cached(cache={})
+    def inbox_section_url(self):
+        return self.config_json()['INBOX_SECTION_URL']
 
     @cached(cache={})
     def week_starts_on_sunday(self):
