@@ -49,16 +49,28 @@ class Config():
         return self.config_json()['NOTES_DATABASE_URL']
 
     @cached(cache={})
-    def year_page_url(self):
-        return self.config_json()['YEAR_PAGE_URL']
+    def year_database_url(self):
+        return self.config_json()['YEAR_DATABASE_URL']
+
+    @cached(cache={})
+    def quarter_database_url(self):
+        return self.config_json()['QUARTER_DATABASE_URL']
+
+    @cached(cache={})
+    def month_database_url(self):
+        return self.config_json()['MONTH_DATABASE_URL']
+
+    @cached(cache={})
+    def week_database_url(self):
+        return self.config_json()['WEEK_DATABASE_URL']
+
+    @cached(cache={})
+    def day_database_url(self):
+        return self.config_json()['DAY_DATABASE_URL']
 
     @cached(cache={})
     def inbox_section_url(self):
         return self.config_json()['INBOX_SECTION_URL']
-
-    @cached(cache={})
-    def week_starts_on_sunday(self):
-        return self.config_json().get('WEEK_STARTS_ON_SUNDAY', True)
 
     @cached(cache={})
     def custom_day_format(self):
