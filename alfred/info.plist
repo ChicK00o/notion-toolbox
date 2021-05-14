@@ -3445,8 +3445,6 @@
 			<dict>
 				<key>argumenttype</key>
 				<integer>2</integer>
-				<key>keyword</key>
-				<string>:timeblock</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
@@ -3638,7 +3636,7 @@
 				<key>fixedorder</key>
 				<true/>
 				<key>items</key>
-				<string>[{"title":"Yes","arg":"Yes"},{"title":"Half","arg":"Half"},{"title":"No","arg":"No"},{"title":"Clear","subtitle":"Reset value to nothing"}]</string>
+				<string>[{"title":"✅ Yes","arg":"Yes"},{"title":"⛔ No","arg":"No"}]</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>subtext</key>
@@ -3844,6 +3842,33 @@
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>EFA2C165-DA4B-4B3F-9450-AB8CA9CCE7F0</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<true/>
+				<key>items</key>
+				<string>[{"title":"Yes","arg":"Yes"},{"title":"Half","arg":"Half"},{"title":"No","arg":"No"},{"title":"Clear","subtitle":"Reset value to nothing"}]</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>OLD Value of light</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>5DB8CAC2-4A15-4F5B-AE19-A7A21A668F9B</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -4459,7 +4484,7 @@
 			<key>colorindex</key>
 			<integer>11</integer>
 			<key>xpos</key>
-			<integer>265</integer>
+			<integer>260</integer>
 			<key>ypos</key>
 			<integer>1930</integer>
 		</dict>
@@ -4615,6 +4640,15 @@
 			<integer>475</integer>
 			<key>ypos</key>
 			<integer>1620</integer>
+		</dict>
+		<key>5DB8CAC2-4A15-4F5B-AE19-A7A21A668F9B</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>xpos</key>
+			<integer>680</integer>
+			<key>ypos</key>
+			<integer>2100</integer>
 		</dict>
 		<key>5EA707F6-CDDD-4C44-BB10-786938FB5CE6</key>
 		<dict>
@@ -5278,7 +5312,7 @@
 			<key>colorindex</key>
 			<integer>11</integer>
 			<key>xpos</key>
-			<integer>265</integer>
+			<integer>260</integer>
 			<key>ypos</key>
 			<integer>1795</integer>
 		</dict>

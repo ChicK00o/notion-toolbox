@@ -10,17 +10,17 @@ from notion_api import notion_api
 try:
     parser = argparse.ArgumentParser(
         description='Change value of selected light')
-    parser.add_argument('--value', nargs='*', help='value (Yes/Half/No or empty)')
+    parser.add_argument('--value', nargs='*', help='value (Yes/No)')
     parser.add_argument('--light', nargs='*', help='light id (notion url)')
     args = parser.parse_args(sys.argv[1].split())
 
     value = ' '.join(args.value)
-    lightId = ' '.join(args.light)
+    lightId = ''.join(args.light)
 
-    current_day = datetime.now().strftime("%A")
+    current_day = notion_api.current_day()
 
-    block = notion_api.get_block(lightId)
-    setattr(block, current_day, value)
+    # block = notion_api.get_block(lightId)
+    setattr(current_day, lightId, True if value == "Yes" else False)
 
     print(value)
 except Exception as e:

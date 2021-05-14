@@ -232,36 +232,39 @@ class NotionApi():
         row.year = self.current_year()
         return row 
 
-    def current_week_lights(self):
-        found_lights = None
+    # def current_week_lights(self):
+    #     found_lights = None
 
-        for block in self.current_week().children:
-            if type(block) == CollectionViewBlock and block.title.endswith("Lights"):
-                found_lights = block
-                break
-            else:
-                continue
+    #     for block in self.current_week().children:
+    #         if type(block) == CollectionViewBlock and block.title.endswith("Lights"):
+    #             found_lights = block
+    #             break
+    #         else:
+    #             continue
 
-        return found_lights
+    #     return found_lights
 
     def current_day_lights(self):
-        view = self.current_week_lights()
-
-        if view is None:
-            return
-
-        current_day = datetime.now().strftime("%A")
+        day = self.current_day()
 
         lights = []
-        for row in view.collection.get_rows():
-            if not row.objective or row.objective.startswith("["):
-                continue
+        for entry in day.schema:
+            if entry["type"] == "checkbox":
+                lights.append({
+                    "id": entry["slug"],
+                    "title": "{} ({})".format("✅" if getattr(day, entry["slug"], False) else "⛔", entry["slug"]),
+                    "url": day.get_browseable_url()
+                })
 
-            lights.append({
-                "id": row.id,
-                "title": "{} ({})".format(row.objective, getattr(row, current_day) or " "),
-                "url": row.get_browseable_url()
-            })
+        # for row in view.collection.get_rows():
+        #     if not row.objective or row.objective.startswith("["):
+        #         continue
+
+        #     lights.append({
+        #         "id": row.id,
+        #         "title": "{} ({})".format(row.objective, getattr(row, current_day) or " "),
+        #         "url": row.get_browseable_url()
+        #     })
 
         return lights
 

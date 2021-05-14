@@ -12,7 +12,8 @@ try:
         "uid": row["id"],
         "title": row["title"],
         "variables": {"lightName": row["title"]},
-        "arg": row["url"],
+        # "arg": row["url"],
+        "arg": row["id"],
         "match": row["title"],
         "copy": row["title"],
         "largetype": row["title"]
