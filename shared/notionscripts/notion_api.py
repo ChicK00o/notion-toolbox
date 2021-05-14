@@ -287,13 +287,34 @@ class NotionApi():
                     "filter": {
                         "value": {
                             "type": "exact",
-                            "value": "Current"
+                            "value": False
                         },
-                        "operator": "enum_is"
+                        "operator": "checkbox_is"
+                    },
+                    "property": "done"
+                },
+                {
+                    "filter": {
+                        "value": {
+                            "type": "relative",
+                            "value": "today"
+                        },
+                        "operator": "date_is_on_or_before"
+                    },
+                    "property": "do_date"
+                },
+                {
+                    "filter": {
+                        "value": {
+                            "type": "exact",
+                            "value": "Completed"
+                        },
+                        "operator": "enum_is_not"
                     },
                     "property": "status"
-                },
-            ]
+                }
+            ],
+            "operator": "and"
         }
         current_tasks_query = self.tasks_database().build_query(filter=filter_params)
         return current_tasks_query.execute()

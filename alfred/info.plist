@@ -593,7 +593,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>9BFAD38B-C38B-4C1E-AD12-17BE6CAC0428</string>
+				<string>D9122232-EBE3-4AF7-AED0-213DF72D9578</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -1058,19 +1058,6 @@
 				<false/>
 			</dict>
 		</array>
-		<key>9BFAD38B-C38B-4C1E-AD12-17BE6CAC0428</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>86F119B7-7B5B-4CA7-9B6D-22C6ED884468</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>9C8E066E-4BBA-4440-BDF8-611F4466391A</key>
 		<array>
 			<dict>
@@ -1410,6 +1397,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>BAD9F961-6732-4B32-986E-F832B7A229B3</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>D9122232-EBE3-4AF7-AED0-213DF72D9578</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>86F119B7-7B5B-4CA7-9B6D-22C6ED884468</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -2571,7 +2571,7 @@
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Status of task</string>
+				<string>Priority of task</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -3268,33 +3268,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>fixedorder</key>
-				<true/>
-				<key>items</key>
-				<string>[{"title":"Not Started","arg":"Not Started"},{"title":"Next Up","arg":"Next Up"},{"title":"Blocked","arg":"Blocked"},{"title":"In Progress","arg":"In Progress"},{"title":"Current","arg":"Current"},{"title":"Completed","arg":"Completed"}]</string>
-				<key>runningsubtext</key>
-				<string></string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>Status of task</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.listfilter</string>
-			<key>uid</key>
-			<string>9BFAD38B-C38B-4C1E-AD12-17BE6CAC0428</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>alfredfiltersresults</key>
 				<true/>
 				<key>alfredfiltersresultsmatchmode</key>
@@ -3359,6 +3332,33 @@
 			<string>alfred.workflow.output.notification</string>
 			<key>uid</key>
 			<string>CC6B0096-7941-4724-82FD-75F2EFF3E552</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"title":"Active","arg":"Active"},{"title":"Waiting","arg":"Waiting"},{"title":"Paused","arg":"Paused"},{"title":"Next Up","arg":"Next Up"},{"title":"Future","arg":"Future"},{"title":"Completed","arg":"Completed"}]</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Status of task</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>D9122232-EBE3-4AF7-AED0-213DF72D9578</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -4940,15 +4940,6 @@
 			<key>ypos</key>
 			<integer>2055</integer>
 		</dict>
-		<key>9BFAD38B-C38B-4C1E-AD12-17BE6CAC0428</key>
-		<dict>
-			<key>colorindex</key>
-			<integer>11</integer>
-			<key>xpos</key>
-			<integer>545</integer>
-			<key>ypos</key>
-			<integer>1590</integer>
-		</dict>
 		<key>9C8E066E-4BBA-4440-BDF8-611F4466391A</key>
 		<dict>
 			<key>colorindex</key>
@@ -5191,6 +5182,15 @@
 			<integer>1905</integer>
 			<key>ypos</key>
 			<integer>715</integer>
+		</dict>
+		<key>D9122232-EBE3-4AF7-AED0-213DF72D9578</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>xpos</key>
+			<integer>545</integer>
+			<key>ypos</key>
+			<integer>1590</integer>
 		</dict>
 		<key>DB161B43-DC05-4D83-80AA-3A3CBD563FF7</key>
 		<dict>

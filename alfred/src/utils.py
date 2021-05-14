@@ -39,10 +39,13 @@ def tags_schema_id(row):
 def fast_tags_for_task(row):
     tags = []
 
-    for property in row.get(["properties", tags_schema_id(row)]):
-        if property[0] == "‣":
-            tag = find_tag(property[1][0][1])
-            if tag:
-                tags.append(tag)
+    data = row.get(["properties", tags_schema_id(row)])
+
+    if data is not None:
+        for property in data:
+            if property[0] == "‣":
+                tag = find_tag(property[1][0][1])
+                if tag:
+                    tags.append(tag)
 
     return ", ".join(tags)
