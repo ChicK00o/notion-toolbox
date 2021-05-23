@@ -2,6 +2,13 @@
 alfred/data/config.json
 alfred/data/tags.json
 forTestingPages.ipynb
+client_secret.json
+credentials.json
+token.pickle
+sheets.googleapis.com-python.json
+office_category.json
+office_project.json
+office_quarter.json
 
 ##### PYTHON #####
 # Byte-compiled / optimized / DLL files

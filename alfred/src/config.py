@@ -11,6 +11,18 @@ class Config():
         return str(Path(__file__).parent.parent.absolute()) + "/data/tags.json"
 
     @cached(cache={})
+    def office_category_file_path(self):
+        return str(Path(__file__).parent.parent.absolute()) + "/data/office_category.json"
+
+    @cached(cache={})
+    def office_project_file_path(self):
+        return str(Path(__file__).parent.parent.absolute()) + "/data/office_project.json"
+
+    @cached(cache={})
+    def office_quarter_file_path(self):
+        return str(Path(__file__).parent.parent.absolute()) + "/data/office_quarter.json"
+
+    @cached(cache={})
     def config_file_path(self):
         return str(Path(__file__).parent.parent.absolute()) + "/data/config.json"
 
@@ -33,6 +45,26 @@ class Config():
         return self.config_json()['TAGS_DATABASE_URL']
 
     @cached(cache={})
+    def office_category_database_url(self):
+        return self.config_json()['OFFICE_CATEGORY_DATABASE_URL']
+
+    @cached(cache={})
+    def office_project_database_url(self):
+        return self.config_json()['OFFICE_PROJECT_DATABASE_URL']
+
+    @cached(cache={})
+    def office_quarter_database_url(self):
+        return self.config_json()['OFFICE_QUARTER_DATABASE_URL']
+
+    @cached(cache={})
+    def change_rag_database_url(self):
+        return self.config_json()['CHANGE_RAG_DATABASE_URL']
+
+    @cached(cache={})
+    def change_date_database_url(self):
+        return self.config_json()['CHANGE_DATE_DATABASE_URL']
+
+    @cached(cache={})
     def tasks_database_url(self):
         return self.config_json()['TASKS_DATABASE_URL']
 
@@ -47,6 +79,10 @@ class Config():
     @cached(cache={})
     def notes_database_url(self):
         return self.config_json()['NOTES_DATABASE_URL']
+
+    @cached(cache={})
+    def office_notes_database_url(self):
+        return self.config_json()['OFFICE_NOTES_DATABASE_URL']
 
     @cached(cache={})
     def year_database_url(self):
@@ -71,6 +107,14 @@ class Config():
     @cached(cache={})
     def inbox_section_url(self):
         return self.config_json()['INBOX_SECTION_URL']
+
+    @cached(cache={})
+    def test_database_url(self):
+        return self.config_json()['TEST']
+
+    @cached(cache={})
+    def sheet_id(self):
+        return self.config_json()['SHEET_ID']
 
     @cached(cache={})
     def custom_day_format(self):

@@ -1,12 +1,18 @@
+from __future__ import print_function
 import os
 import json
+import sys
 from cachetools import cached
 from notion_api import config
-
 
 def app_url(browser_url):
     return browser_url.replace("https://", "notion://")
 
+
+def log(s, *args):
+    if args:
+        s = s % args
+    print(s, file=sys.stderr)
 
 @cached(cache={})
 def tags_json():
@@ -17,6 +23,32 @@ def tags_json():
             output = json.load(json_file)
     return output
 
+@cached(cache={})
+def office_category_json():
+    output = None
+    office_category_file_path = config.office_category_file_path()
+    if os.path.isfile(office_category_file_path):
+        with open(office_category_file_path) as json_file:
+            output = json.load(json_file)
+    return output
+
+@cached(cache={})
+def office_project_json():
+    output = None
+    office_project_file_path = config.office_project_file_path()
+    if os.path.isfile(office_project_file_path):
+        with open(office_project_file_path) as json_file:
+            output = json.load(json_file)
+    return output
+
+@cached(cache={})
+def office_quarter_json():
+    output = None
+    office_quarter_file_path = config.office_quarter_file_path()
+    if os.path.isfile(office_quarter_file_path):
+        with open(office_quarter_file_path) as json_file:
+            output = json.load(json_file)
+    return output
 
 @cached(cache={})
 def find_tag(id):

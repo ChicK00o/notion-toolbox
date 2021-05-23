@@ -7,7 +7,7 @@ import calendar
 
 from notion.client import NotionClient
 from notion.block import DividerBlock, TextBlock, CollectionViewBlock
-from notion.collection import NotionDate
+from notion.collection import NotionDate, CollectionRowBlock
 
 from notionscripts.config import Config
 
@@ -25,6 +25,18 @@ class NotionApi():
         return self.client().get_collection_view(self.config.tags_database_url())
 
     @cached(cache={})
+    def office_category_database(self):
+        return self.client().get_collection_view(self.config.office_category_database_url())
+
+    @cached(cache={})
+    def office_project_database(self):
+        return self.client().get_collection_view(self.config.office_project_database_url())
+
+    @cached(cache={})
+    def office_quarter_database(self):
+        return self.client().get_collection_view(self.config.office_quarter_database_url())
+
+    @cached(cache={})
     def tasks_database(self):
         return self.client().get_collection_view(self.config.tasks_database_url())
 
@@ -39,6 +51,26 @@ class NotionApi():
     @cached(cache={})
     def notes_database(self):
         return self.client().get_collection_view(self.config.notes_database_url())
+
+    @cached(cache={})
+    def test_database(self):
+        return self.client().get_collection_view(self.config.test_database_url())
+
+    @cached(cache={})
+    def office_notes_database(self):
+        return self.client().get_collection_view(self.config.office_notes_database_url())
+
+    @cached(cache={})
+    def change_rag_database(self):
+        return self.client().get_collection_view(self.config.change_rag_database_url())
+
+    @cached(cache={})
+    def change_date_database(self):
+        return self.client().get_collection_view(self.config.change_date_database_url())
+
+    @cached(cache={})
+    def get_row(self, row_id = ""):
+        return CollectionRowBlock(self.client(), row_id)
 
     @cached(cache={})
     def year_database(self):

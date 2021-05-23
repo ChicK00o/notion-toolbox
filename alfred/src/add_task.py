@@ -23,16 +23,17 @@ try:
     args = parser.parse_args(sys.argv[1].split())
 
     query = ' '.join(args.query)
-    status = ' '.join(args.status)
+    # status = ' '.join(args.status)
     priority = ' '.join(args.priority) 
 
     row = collection.add_row()
     row.action_item = query
-    row.status = status
+    row.status = "Active"
     row.priority = priority
 
     tomorrow = (datetime.now() + timedelta(days=1)).date()
     row.do_date = NotionDate(tomorrow)
+    row.backlog_status = "Backlog"
 
     if args.tags:
         tags = ' '.join(args.tags).split(',')
