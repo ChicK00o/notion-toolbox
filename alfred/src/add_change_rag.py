@@ -47,6 +47,8 @@ try:
         result = row.tags
         result.extend(x for x in projectTags if x not in result)
         row.tags = result
+    else:
+        row.tags = projectTags
     # Print out alfred-formatted JSON (modifies variables while passing query through)
     output = {
         "alfredworkflow": {

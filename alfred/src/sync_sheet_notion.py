@@ -9,7 +9,7 @@ import json
 
 from notion_api import notion_api
 from notion_api import config
-from utils import tags_json, office_category_json, office_quarter_json
+from utils import tags_json, office_category_json, office_quarter_json, log
 # from utils import office_quarter_json
 
 try:
@@ -43,7 +43,9 @@ try:
             new_row.planning_rag = dataRow['Planning RAG']
             new_row.current_rag = dataRow['Current RAG']
             new_row.status = dataRow['Status']
-            new_row.done_eta = NotionDate(datetime.strptime(dataRow['Done ETA'], "%B %d, %Y").date())
+            if dataRow['Done ETA']:
+                # log("done eta value : %r", dataRow['Done ETA'])
+                new_row.done_eta = NotionDate(datetime.strptime(dataRow['Done ETA'], "%B %d, %Y").date())
             quarterData = list(filter(lambda x: x["title"] == dataRow['Quarter'], quarterFile['items']))
             if len(quarterData) > 0:
                 new_row.quarter = quarterData[0]['arg']

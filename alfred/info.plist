@@ -3597,7 +3597,7 @@
 				<key>fixedorder</key>
 				<false/>
 				<key>items</key>
-				<string>[{"title":"Highlight","arg":"Highlight"},{"title":"Lowlight","arg":"Lowlight"},{"title":"Delay","arg":"Delay"}]</string>
+				<string>[{"title":"Highlight","arg":"Highlight"},{"title":"Lowlight","arg":"Lowlight"},{"title":"Delay","arg":"Delay"},{"title":"Event","arg":"Event"}]</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>subtext</key>
@@ -5701,7 +5701,7 @@
 				<key>subtext</key>
 				<string>{query}</string>
 				<key>text</key>
-				<string>Add Note</string>
+				<string>Add Project Note</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
