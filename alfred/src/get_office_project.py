@@ -24,7 +24,7 @@ try:
             "uid": row.id,
             "title": row.title,
             "subtitle": row.status,
-            "variables": {"projectname": row.title, "projectrowid" : row.id, "projectdate" : "Not Set" if not row.done_eta else row.done_eta.start.strftime("%d/%m/%Y")},
+            "variables": {"projectname": row.title, "projectrowid" : row.id, "projectdate" : "Not Set" if not row.done_eta else row.done_eta.start.strftime("%d/%m/%Y"), "projectrag" : row.current_rag},
             "arg": row.get_browseable_url(),
             "match": row.title,
             "copy": row.title,
