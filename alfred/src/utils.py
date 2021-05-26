@@ -4,6 +4,26 @@ import json
 import sys
 from cachetools import cached
 from notion_api import config
+from copy import copy, deepcopy 
+
+def _copy_properties(old, new):
+    for prop in dir(old):
+        try:
+            if not prop.startswith('_'):
+                attr = getattr(old, prop)
+                # copying tags creates a whole new set of problems
+                if prop != 'tags' and attr != '' and not callable(attr):
+                    setattr(new, prop, copy(attr))
+
+        # notion-py raises AttributeError when it can't assign an attribute
+        except AttributeError:
+            pass
+
+    if bool(old.children):
+        for old_child in old.children:
+            new_child = new.children.add_new(old_child.__class__)
+            _copy_properties(old_child, new_child)
+
 
 def app_url(browser_url):
     return browser_url.replace("https://", "notion://")

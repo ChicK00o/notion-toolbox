@@ -5,7 +5,7 @@ import argparse
 import json
 from datetime import datetime
 from notion.collection import NotionDate
-# from utils import log
+from utils import log, _copy_properties
 
 from notion_api import notion_api
 
@@ -28,9 +28,10 @@ try:
     record = notion_api.get_block(taskId)
     collection = notion_api.tasks_database().collection
     row = collection.add_row()
-    row.action_item = "\\" + record.action_item
+    _copy_properties(record, row)
+    # row.action_item = "\\" + record.action_item
     # log("record action : %r || row action : %r", record.action_item, row.action_item)
-    row.tags = record.tags
+    # row.tags = record.tags
     row.do_date = NotionDate(datetime.strptime(newdate, "%d/%m/%Y").date())
     row.status = "Ready"
 
