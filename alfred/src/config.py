@@ -66,7 +66,7 @@ class Config():
 
     @cached(cache={})
     def tasks_database_url(self):
-        return self.config_json()['TASKS_DATABASE_URL']
+        return self.config_json()['TASKS_V2_DATABASE_URL']
 
     @cached(cache={})
     def wins_database_url(self):

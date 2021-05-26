@@ -326,30 +326,126 @@ class NotionApi():
                         },
                         "operator": "checkbox_is"
                     },
-                    "property": "done"
+                    "property": "archived"
                 },
                 {
-                    "filter": {
-                        "value": {
-                            "type": "relative",
-                            "value": "today"
+                    "filters": [
+                        {
+                            "filter": {
+                                "value": {
+                                    "type": "exact",
+                                    "value": "Ready"
+                                },
+                                "operator": "enum_is"
+                            },
+                            "property": "status"
                         },
-                        "operator": "date_is_on_or_before"
-                    },
-                    "property": "do_date"
+                        {
+                            "filter": {
+                                "value": {
+                                    "type": "exact",
+                                    "value": "Today"
+                                },
+                                "operator": "enum_is"
+                            },
+                            "property": "status"
+                        },
+                        {
+                            "filter": {
+                                "value": {
+                                    "type": "exact",
+                                    "value": "Doing"
+                                },
+                                "operator": "enum_is"
+                            },
+                            "property": "status"
+                        },
+                        {
+                            "filter": {
+                                "value": {
+                                    "type": "exact",
+                                    "value": "Waiting"
+                                },
+                                "operator": "enum_is"
+                            },
+                            "property": "status"
+                        }
+                    ],
+                    "operator": "or"
                 },
                 {
-                    "filter": {
-                        "value": {
-                            "type": "exact",
-                            "value": "Completed"
+                    "filters": [
+                        {
+                            "filter": {
+                                "operator": "is_empty"
+                            },
+                            "property": "do_date"
                         },
-                        "operator": "enum_is_not"
-                    },
-                    "property": "status"
+                        {
+                            "filter": {
+                                "value": {
+                                    "type": "relative",
+                                    "value": "one_week_from_now"
+                                },
+                                "operator": "date_is_on_or_before"
+                            },
+                            "property": "do_date"
+                        }
+                    ],
+                    "operator": "or"
                 }
             ],
             "operator": "and"
         }
         current_tasks_query = self.tasks_database().build_query(filter=filter_params)
         return current_tasks_query.execute()
+
+    def get_active_tasks(self):
+        filter_params = {
+            "filters": [
+                {
+                    "filter": {
+                        "value": {
+                            "type": "exact",
+                            "value": False
+                        },
+                        "operator": "checkbox_is"
+                    },
+                    "property": "archived"
+                },
+                {
+                    "filter": {
+                        "value": {
+                            "type": "exact",
+                            "value": "Doing"
+                        },
+                        "operator": "enum_is"
+                    },
+                    "property": "status"
+                },
+                {
+                    "filters": [
+                        {
+                            "filter": {
+                                "operator": "is_empty"
+                            },
+                            "property": "do_date"
+                        },
+                        {
+                            "filter": {
+                                "value": {
+                                    "type": "relative",
+                                    "value": "one_week_from_now"
+                                },
+                                "operator": "date_is_on_or_before"
+                            },
+                            "property": "do_date"
+                        }
+                    ],
+                    "operator": "or"
+                }
+            ],
+            "operator": "and"
+        }
+        active_tasks_query = self.tasks_database().build_query(filter=filter_params)
+        return active_tasks_query.execute()

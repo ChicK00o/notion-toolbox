@@ -38,8 +38,6 @@ try:
         row.status = status
     if args.rowid:
         project_row = notion_api.get_row(' '.join(args.rowid))
-        row.old_rag = project_row.current_rag
-        project_row.current_rag = row.new_rag
         projectTags = project_row.tags
     if args.tags:
         tags = ' '.join(args.tags).split(',')

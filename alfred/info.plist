@@ -394,21 +394,11 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>3A55556D-EC87-4394-BBC5-ED3D51E03E0A</string>
+				<string>5B650B1F-84EB-4963-BE43-38AF1580B41C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>5B650B1F-84EB-4963-BE43-38AF1580B41C</string>
-				<key>modifiers</key>
-				<integer>1048576</integer>
-				<key>modifiersubtext</key>
-				<string>Change status</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -441,6 +431,32 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>48B89A9A-06D6-4FB5-937B-697298A7BE17</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2C4B5CBD-2E63-48F3-9F91-9F6AD6073195</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>0443E07E-EE53-4549-B248-C0C15F850DD7</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>2C8CBAE5-C864-4D6D-B38E-9D2E220F1116</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>E9809327-0DA5-4C57-AF67-FE8E6A2058E1</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -562,6 +578,16 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>2C8CBAE5-C864-4D6D-B38E-9D2E220F1116</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 		<key>396DBD24-822B-4AD2-9712-F1B877ACF334</key>
 		<array>
@@ -609,6 +635,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>432D4442-C280-416F-9C19-D21778BFDD34</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A552571C-4E98-479E-ABF1-171E6E0B3325</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>43DB3640-1A4C-4F62-8DFD-1331D0B9D0E3</key>
 		<array>
 			<dict>
@@ -626,21 +665,11 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>3A55556D-EC87-4394-BBC5-ED3D51E03E0A</string>
+				<string>5B650B1F-84EB-4963-BE43-38AF1580B41C</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>5B650B1F-84EB-4963-BE43-38AF1580B41C</string>
-				<key>modifiers</key>
-				<integer>1048576</integer>
-				<key>modifiersubtext</key>
-				<string>Change status</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -824,18 +853,7 @@
 			</dict>
 		</array>
 		<key>5EA707F6-CDDD-4C44-BB10-786938FB5CE6</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>0443E07E-EE53-4549-B248-C0C15F850DD7</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
+		<array/>
 		<key>604DF77C-8138-4D35-B97A-A955CB3C942D</key>
 		<array>
 			<dict>
@@ -1129,6 +1147,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>0943D82C-1F0A-47C6-8893-D6DDDB834628</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>757FEA11-F17C-4E0F-8E6C-861669EB7916</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>432D4442-C280-416F-9C19-D21778BFDD34</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -1450,7 +1481,7 @@
 		<array>
 			<dict>
 				<key>destinationuid</key>
-				<string>5EA707F6-CDDD-4C44-BB10-786938FB5CE6</string>
+				<string>2C4B5CBD-2E63-48F3-9F91-9F6AD6073195</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -1546,6 +1577,31 @@
 				<false/>
 			</dict>
 		</array>
+		<key>A552571C-4E98-479E-ABF1-171E6E0B3325</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CB7F08F6-4139-43A0-A878-4CD334E05223</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>sourceoutputuid</key>
+				<string>54D17DF9-BF73-4101-9D54-E3CA463A6320</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>E9809327-0DA5-4C57-AF67-FE8E6A2058E1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>A567C2D2-7074-4DF6-A566-A0F2ADE8BE67</key>
 		<array>
 			<dict>
@@ -1600,6 +1656,19 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>EBE2358C-B6D6-49CA-931A-6FC2E52AE456</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>AC079ECB-E25D-40FD-BE73-31EEB394AC18</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>CC6B0096-7941-4724-82FD-75F2EFF3E552</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -1942,6 +2011,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>CB7F08F6-4139-43A0-A878-4CD334E05223</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>EC67432B-D37F-4C45-9D37-7913337022AE</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>CCA2B101-5058-45BC-9F3F-66E7D3214D02</key>
 		<array>
 			<dict>
@@ -2112,6 +2194,19 @@
 				<false/>
 			</dict>
 		</array>
+		<key>DFDB0969-3BF5-417E-8DED-19F901AEE25A</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>757FEA11-F17C-4E0F-8E6C-861669EB7916</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
 		<key>DFE9D893-A12E-4006-A1D4-665DD1979573</key>
 		<array>
 			<dict>
@@ -2182,6 +2277,29 @@
 			<dict>
 				<key>destinationuid</key>
 				<string>04C530BA-ED0E-42B8-A360-7BCA6B45291F</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>EC67432B-D37F-4C45-9D37-7913337022AE</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>A409CC24-C778-4726-973F-784061A7926A</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>AC079ECB-E25D-40FD-BE73-31EEB394AC18</string>
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
@@ -3121,22 +3239,22 @@
 				<key>argumenttype</key>
 				<integer>1</integer>
 				<key>fixedorder</key>
-				<false/>
+				<true/>
 				<key>items</key>
-				<string>[{"title":"Immediate 🔥","arg":"Immediate 🔥"},{"title":"Quick ⚡️","arg":"Quick ⚡️"},{"title":"Scheduled 🗓","arg":"Scheduled 🗓"},{"title":"1st Priority 🚀","arg":"1st Priority 🚀"},{"title":"2nd Priority","arg":"2nd Priority"},{"title":"3rd Priority","arg":"3rd Priority"},{"title":"4th Priority","arg":"4th Priority"},{"title":"5th Priority","arg":"5th Priority"},{"title":"Errand 🚘","arg":"Errand 🚘"},{"title":"Remember 💭","arg":"Remember 💭"}]</string>
+				<string>[{"title":"Backlog","arg":"Backlog"},{"title":"Kaizen","arg":"Kaizen"},{"title":"Panic","arg":"Panic"},{"title":"Organic","arg":"Organic"},{"title":"Social","arg":"Social"},{"title":"Ready","arg":"Ready"},{"title":"Today","arg":"Today"},{"title":"Doing","arg":"Doing"},{"title":"Waiting","arg":"Waiting"},{"title":"Done","arg":"Done"}]</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>subtext</key>
 				<string></string>
 				<key>title</key>
-				<string>Priority of task</string>
+				<string>Status of task</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.listfilter</string>
 			<key>uid</key>
-			<string>5EA707F6-CDDD-4C44-BB10-786938FB5CE6</string>
+			<string>2C4B5CBD-2E63-48F3-9F91-9F6AD6073195</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -3205,12 +3323,12 @@
 			<key>config</key>
 			<dict>
 				<key>argument</key>
-				<string>--status {var:status} --priority {query} --tags {var:tags} --query {var:query}</string>
+				<string>--status {query} --tags {var:tags} --query {var:query}</string>
 				<key>passthroughargument</key>
 				<false/>
 				<key>variables</key>
 				<dict>
-					<key>priority</key>
+					<key>status</key>
 					<string>{query}</string>
 				</dict>
 			</dict>
@@ -3281,6 +3399,33 @@
 			<string>alfred.workflow.output.callexternaltrigger</string>
 			<key>uid</key>
 			<string>3F880676-814E-40E9-A5E6-86BE2C69B0ED</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>fixedorder</key>
+				<false/>
+				<key>items</key>
+				<string>[{"title":"Immediate 🔥","arg":"Immediate 🔥"},{"title":"Quick ⚡️","arg":"Quick ⚡️"},{"title":"Scheduled 🗓","arg":"Scheduled 🗓"},{"title":"1st Priority 🚀","arg":"1st Priority 🚀"},{"title":"2nd Priority","arg":"2nd Priority"},{"title":"3rd Priority","arg":"3rd Priority"},{"title":"4th Priority","arg":"4th Priority"},{"title":"5th Priority","arg":"5th Priority"},{"title":"Errand 🚘","arg":"Errand 🚘"},{"title":"Remember 💭","arg":"Remember 💭"}]</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Priority of task</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.listfilter</string>
+			<key>uid</key>
+			<string>5EA707F6-CDDD-4C44-BB10-786938FB5CE6</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -5044,6 +5189,25 @@
 		<dict>
 			<key>config</key>
 			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{var:url}</string>
+				<key>utf8</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>3A55556D-EC87-4394-BBC5-ED3D51E03E0A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
 				<key>concurrently</key>
 				<false/>
 				<key>escaping</key>
@@ -5263,74 +5427,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>alfredfiltersresults</key>
-				<true/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>2</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<false/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>1</integer>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>:search</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string>Fetch Tasks (approximately 5 seconds) ...</string>
-				<key>script</key>
-				<string></string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string>./src/get_tasks.py</string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>Search for a task (title + tags)</string>
-				<key>type</key>
-				<integer>8</integer>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>29925A4E-45FD-469F-AEF9-92E5D1B2EF64</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>browser</key>
-				<string></string>
-				<key>spaces</key>
-				<string></string>
-				<key>url</key>
-				<string>{var:url}</string>
-				<key>utf8</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.openurl</string>
-			<key>uid</key>
-			<string>3A55556D-EC87-4394-BBC5-ED3D51E03E0A</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>externaltriggerid</key>
 				<string>handleFailure</string>
 				<key>passinputasargument</key>
@@ -5366,6 +5462,55 @@
 			<string>81EC1139-04B1-4A48-8D5C-BFC6A3E4437B</string>
 			<key>version</key>
 			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>2</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>:current</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Fetch Tasks (approximately 5 seconds) ...</string>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>./src/get_tasks.py</string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>Search for a task (title + tags)</string>
+				<key>type</key>
+				<integer>8</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>29925A4E-45FD-469F-AEF9-92E5D1B2EF64</string>
+			<key>version</key>
+			<integer>3</integer>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -5443,7 +5588,7 @@
 				<key>removeextension</key>
 				<false/>
 				<key>text</key>
-				<string>{var:taskName}</string>
+				<string>{var:taskname}</string>
 				<key>title</key>
 				<string>Task status changed to {var:status}</string>
 			</dict>
@@ -5457,55 +5602,6 @@
 		<dict>
 			<key>config</key>
 			<dict>
-				<key>alfredfiltersresults</key>
-				<true/>
-				<key>alfredfiltersresultsmatchmode</key>
-				<integer>2</integer>
-				<key>argumenttreatemptyqueryasnil</key>
-				<false/>
-				<key>argumenttrimmode</key>
-				<integer>0</integer>
-				<key>argumenttype</key>
-				<integer>2</integer>
-				<key>escaping</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>:current</string>
-				<key>queuedelaycustom</key>
-				<integer>3</integer>
-				<key>queuedelayimmediatelyinitially</key>
-				<true/>
-				<key>queuedelaymode</key>
-				<integer>0</integer>
-				<key>queuemode</key>
-				<integer>1</integer>
-				<key>runningsubtext</key>
-				<string>Fetch Tasks (approximately 5 seconds) ...</string>
-				<key>script</key>
-				<string></string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string>./src/get_current_tasks.py</string>
-				<key>subtext</key>
-				<string></string>
-				<key>title</key>
-				<string>See the current tasks</string>
-				<key>type</key>
-				<integer>8</integer>
-				<key>withspace</key>
-				<false/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.scriptfilter</string>
-			<key>uid</key>
-			<string>4464858F-D7A5-4184-8D75-274AE95FB1B7</string>
-			<key>version</key>
-			<integer>3</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -5513,7 +5609,7 @@
 				<key>fixedorder</key>
 				<false/>
 				<key>items</key>
-				<string>[{"title":"Active","arg":"Active"},{"title":"Waiting","arg":"Waiting"},{"title":"Paused","arg":"Paused"},{"title":"Next Up","arg":"Next Up"},{"title":"Future","arg":"Future"},{"title":"Completed","arg":"Completed"}]</string>
+				<string>[{"title":"Ready","arg":"Ready"},{"title":"Today","arg":"Today"},{"title":"Doing","arg":"Doing"},{"title":"Waiting","arg":"Waiting"},{"title":"Done","arg":"Done"}]</string>
 				<key>runningsubtext</key>
 				<string></string>
 				<key>subtext</key>
@@ -5578,6 +5674,148 @@
 				<key>matchcasesensitive</key>
 				<true/>
 				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>normal</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>0B373516-44E3-4B4F-935D-689A79E478D1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<true/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>2</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>keyword</key>
+				<string>:active</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>Fetch Tasks (approximately 5 seconds) ...</string>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>./src/get_current_tasks.py</string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>See the current tasks</string>
+				<key>type</key>
+				<integer>8</integer>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>4464858F-D7A5-4184-8D75-274AE95FB1B7</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<true/>
+				<key>matchmode</key>
+				<integer>0</integer>
+				<key>matchstring</key>
+				<string>recurringdone</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.filter</string>
+			<key>uid</key>
+			<string>2C8CBAE5-C864-4D6D-B38E-9D2E220F1116</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string></string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>./src/create_new_task_with_date.py</string>
+				<key>type</key>
+				<integer>8</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>EC67432B-D37F-4C45-9D37-7913337022AE</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>subtext</key>
+				<string>Current {var:date} in Format DD/MM/YYYY</string>
+				<key>text</key>
+				<string>Enter New Date</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>432D4442-C280-416F-9C19-D21778BFDD34</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>triggerid</key>
+				<string>task-change-date</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.external</string>
+			<key>uid</key>
+			<string>DFDB0969-3BF5-417E-8DED-19F901AEE25A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>inputstring</key>
+				<string>{query}</string>
+				<key>matchcasesensitive</key>
+				<true/>
+				<key>matchmode</key>
 				<integer>1</integer>
 				<key>matchstring</key>
 				<string></string>
@@ -5585,7 +5823,74 @@
 			<key>type</key>
 			<string>alfred.workflow.utility.filter</string>
 			<key>uid</key>
-			<string>0B373516-44E3-4B4F-935D-689A79E478D1</string>
+			<string>AC079ECB-E25D-40FD-BE73-31EEB394AC18</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>conditions</key>
+				<array>
+					<dict>
+						<key>inputstring</key>
+						<string></string>
+						<key>matchcasesensitive</key>
+						<false/>
+						<key>matchmode</key>
+						<integer>4</integer>
+						<key>matchstring</key>
+						<string>^(0?[1-9]|[12][0-9]|3[01])[\/\-](0?[1-9]|1[012])[\/\-]\d{4}$</string>
+						<key>outputlabel</key>
+						<string>pass</string>
+						<key>uid</key>
+						<string>54D17DF9-BF73-4101-9D54-E3CA463A6320</string>
+					</dict>
+				</array>
+				<key>elselabel</key>
+				<string>else</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.conditional</string>
+			<key>uid</key>
+			<string>A552571C-4E98-479E-ABF1-171E6E0B3325</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string>--task {var:task} --taskname {var:taskname} --status {var:status} --newdate {query}</string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict>
+					<key>newdate</key>
+					<string>{query}</string>
+				</dict>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>CB7F08F6-4139-43A0-A878-4CD334E05223</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argument</key>
+				<string></string>
+				<key>passthroughargument</key>
+				<false/>
+				<key>variables</key>
+				<dict/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.utility.argument</string>
+			<key>uid</key>
+			<string>757FEA11-F17C-4E0F-8E6C-861669EB7916</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -5629,6 +5934,25 @@
 			<string>alfred.workflow.utility.argument</string>
 			<key>uid</key>
 			<string>8064DDFC-8CBC-46AD-9DAA-72545ABBDC14</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>externaltriggerid</key>
+				<string>task-change-date</string>
+				<key>passinputasargument</key>
+				<true/>
+				<key>passvariables</key>
+				<true/>
+				<key>workflowbundleid</key>
+				<string>self</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.callexternaltrigger</string>
+			<key>uid</key>
+			<string>E9809327-0DA5-4C57-AF67-FE8E6A2058E1</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -6164,7 +6488,7 @@
 			<key>colorindex</key>
 			<integer>11</integer>
 			<key>xpos</key>
-			<integer>1595</integer>
+			<integer>1600</integer>
 			<key>ypos</key>
 			<integer>2570</integer>
 		</dict>
@@ -6299,9 +6623,9 @@
 			<key>colorindex</key>
 			<integer>11</integer>
 			<key>xpos</key>
-			<integer>935</integer>
+			<integer>905</integer>
 			<key>ypos</key>
-			<integer>2420</integer>
+			<integer>2475</integer>
 		</dict>
 		<key>2B415B6B-904D-40D4-A40B-D8D6457D95B7</key>
 		<dict>
@@ -6320,6 +6644,24 @@
 			<integer>2080</integer>
 			<key>ypos</key>
 			<integer>2905</integer>
+		</dict>
+		<key>2C4B5CBD-2E63-48F3-9F91-9F6AD6073195</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>xpos</key>
+			<integer>485</integer>
+			<key>ypos</key>
+			<integer>825</integer>
+		</dict>
+		<key>2C8CBAE5-C864-4D6D-B38E-9D2E220F1116</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>xpos</key>
+			<integer>1600</integer>
+			<key>ypos</key>
+			<integer>2625</integer>
 		</dict>
 		<key>2F788593-9DBF-40E5-BEDC-324803F0B4CF</key>
 		<dict>
@@ -6425,9 +6767,9 @@
 			<key>colorindex</key>
 			<integer>11</integer>
 			<key>xpos</key>
-			<integer>1210</integer>
+			<integer>1590</integer>
 			<key>ypos</key>
-			<integer>2420</integer>
+			<integer>2255</integer>
 		</dict>
 		<key>3BA4815D-7B6D-41D7-9585-D599C403C67E</key>
 		<dict>
@@ -6456,6 +6798,15 @@
 			<key>ypos</key>
 			<integer>945</integer>
 		</dict>
+		<key>432D4442-C280-416F-9C19-D21778BFDD34</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>xpos</key>
+			<integer>1325</integer>
+			<key>ypos</key>
+			<integer>2670</integer>
+		</dict>
 		<key>43DB3640-1A4C-4F62-8DFD-1331D0B9D0E3</key>
 		<dict>
 			<key>colorindex</key>
@@ -6470,9 +6821,9 @@
 			<key>colorindex</key>
 			<integer>11</integer>
 			<key>xpos</key>
-			<integer>935</integer>
+			<integer>905</integer>
 			<key>ypos</key>
-			<integer>2540</integer>
+			<integer>2615</integer>
 		</dict>
 		<key>47CFAC00-A103-4788-A807-D4B758FFF4A0</key>
 		<dict>
@@ -6614,9 +6965,9 @@
 			<key>colorindex</key>
 			<integer>11</integer>
 			<key>xpos</key>
-			<integer>495</integer>
+			<integer>230</integer>
 			<key>ypos</key>
-			<integer>825</integer>
+			<integer>955</integer>
 		</dict>
 		<key>5F62596D-0A0F-49F7-A5EF-CEE04A52D284</key>
 		<dict>
@@ -6824,6 +7175,15 @@
 			<integer>1690</integer>
 			<key>ypos</key>
 			<integer>1765</integer>
+		</dict>
+		<key>757FEA11-F17C-4E0F-8E6C-861669EB7916</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>xpos</key>
+			<integer>1265</integer>
+			<key>ypos</key>
+			<integer>2700</integer>
 		</dict>
 		<key>764726F9-9D23-4209-B378-275695D0B2B3</key>
 		<dict>
@@ -7055,7 +7415,7 @@
 			<key>colorindex</key>
 			<integer>11</integer>
 			<key>xpos</key>
-			<integer>435</integer>
+			<integer>405</integer>
 			<key>ypos</key>
 			<integer>855</integer>
 		</dict>
@@ -7116,9 +7476,9 @@
 			<key>colorindex</key>
 			<integer>1</integer>
 			<key>xpos</key>
-			<integer>1570</integer>
+			<integer>2015</integer>
 			<key>ypos</key>
-			<integer>2420</integer>
+			<integer>2415</integer>
 		</dict>
 		<key>A542DA0F-6A5B-47D4-96A7-DB61857257AF</key>
 		<dict>
@@ -7128,6 +7488,13 @@
 			<integer>400</integer>
 			<key>ypos</key>
 			<integer>1570</integer>
+		</dict>
+		<key>A552571C-4E98-479E-ABF1-171E6E0B3325</key>
+		<dict>
+			<key>xpos</key>
+			<integer>1505</integer>
+			<key>ypos</key>
+			<integer>2690</integer>
 		</dict>
 		<key>A567C2D2-7074-4DF6-A566-A0F2ADE8BE67</key>
 		<dict>
@@ -7173,6 +7540,15 @@
 			<integer>1015</integer>
 			<key>ypos</key>
 			<integer>1595</integer>
+		</dict>
+		<key>AC079ECB-E25D-40FD-BE73-31EEB394AC18</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>xpos</key>
+			<integer>1895</integer>
+			<key>ypos</key>
+			<integer>2690</integer>
 		</dict>
 		<key>AD8CDD94-60A6-483C-9EC9-5A8BEE5A54C4</key>
 		<dict>
@@ -7363,6 +7739,15 @@
 			<key>ypos</key>
 			<integer>2270</integer>
 		</dict>
+		<key>CB7F08F6-4139-43A0-A878-4CD334E05223</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>xpos</key>
+			<integer>1600</integer>
+			<key>ypos</key>
+			<integer>2690</integer>
+		</dict>
 		<key>CBDE5CCA-E0F9-47C3-B475-74BA4DC039B1</key>
 		<dict>
 			<key>colorindex</key>
@@ -7377,7 +7762,7 @@
 			<key>colorindex</key>
 			<integer>11</integer>
 			<key>xpos</key>
-			<integer>1725</integer>
+			<integer>2015</integer>
 			<key>ypos</key>
 			<integer>2540</integer>
 		</dict>
@@ -7489,6 +7874,15 @@
 			<key>ypos</key>
 			<integer>310</integer>
 		</dict>
+		<key>DFDB0969-3BF5-417E-8DED-19F901AEE25A</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>xpos</key>
+			<integer>1095</integer>
+			<key>ypos</key>
+			<integer>2670</integer>
+		</dict>
 		<key>DFE9D893-A12E-4006-A1D4-665DD1979573</key>
 		<dict>
 			<key>colorindex</key>
@@ -7525,6 +7919,15 @@
 			<key>ypos</key>
 			<integer>1570</integer>
 		</dict>
+		<key>E9809327-0DA5-4C57-AF67-FE8E6A2058E1</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>2</integer>
+			<key>xpos</key>
+			<integer>1715</integer>
+			<key>ypos</key>
+			<integer>2780</integer>
+		</dict>
 		<key>EAD6EACE-8E5B-4A5D-A3D3-BA9288D97AE3</key>
 		<dict>
 			<key>colorindex</key>
@@ -7551,6 +7954,15 @@
 			<integer>410</integer>
 			<key>ypos</key>
 			<integer>1795</integer>
+		</dict>
+		<key>EC67432B-D37F-4C45-9D37-7913337022AE</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>11</integer>
+			<key>xpos</key>
+			<integer>1715</integer>
+			<key>ypos</key>
+			<integer>2660</integer>
 		</dict>
 		<key>ECCF1C45-DAB6-45AD-9CCB-10C73713E2F6</key>
 		<dict>

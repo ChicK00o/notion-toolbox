@@ -9,7 +9,7 @@ def app_url(browser_url):
 
 
 message = None
-for row in api.get_current_tasks():
+for row in api.get_active_tasks():
     message = "%s | href=%s" % (row.title, app_url(row.get_browseable_url()))
     print(message)
 
